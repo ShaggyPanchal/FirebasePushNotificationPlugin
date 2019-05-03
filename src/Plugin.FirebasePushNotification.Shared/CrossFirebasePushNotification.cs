@@ -4,7 +4,7 @@ using System;
 namespace Plugin.FirebasePushNotification
 {
   /// <summary>
-  /// Cross platform FirebasePushNotification implemenations
+  /// Cross platform FirebasePushNotification implementations
   /// </summary>
   public class CrossFirebasePushNotification
   {

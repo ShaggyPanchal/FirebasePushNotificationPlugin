@@ -413,8 +413,8 @@ namespace Plugin.FirebasePushNotification
 
             OnBuildNotification(notificationBuilder, parameters);
 
-            NotificationManager notificationManager = (NotificationManager)context.GetSystemService(Context.NotificationService);
-            notificationManager.Notify(tag, notifyId, notificationBuilder.Build());
+            //NotificationManager notificationManager = (NotificationManager)context.GetSystemService(Context.NotificationService);
+            //notificationManager.Notify(tag, notifyId, notificationBuilder.Build());
  
         }
 
